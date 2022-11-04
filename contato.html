@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+        
+    <head> <!--Definindo configurações padroes para a página no navegador-->
+        <title>Newverse</title>
+
+        <link rel="icon" type="image/x-icon" href="Logo NEW VERSE 2.0 PNG.png">
+        <link rel="stylesheet" href="reset.css">
+        <link href="style__contato.css" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body> <!--Conteúdo do site-->
+        <header>
+            <img src="Logo NEW VERSE 2.0 PNG.png" title="Newverse" class="logo"></img> <!--Logo-->
+                <nav>
+                    <ul> <!--Navegação-->
+                        <li class="home"><a href="index.html">Home</a></li>
+                        <li class="produtos"><a href="produtos.html">Produtos</a></li>
+                        <li class="cursos"><a href="cursos.html">Cursos</a></li>
+                        <li class="contato"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+        </header> 
+
+        <h3 class="titulo">Contato:</h3>
+
+    <form name="frmcontato" method="get" action = "mailto:seuemail@email.com" target ="_blank">
+
+
+        <fieldset>
+            
+            <legend>Dados pessoais</legend>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" name="" class="input-padrao" required >
+
+            <label for="email">* E-mail</label>
+            <input type="text" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com"> 
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+            
+            <label for="mensagem">* Mensagem</label>
+            <textarea id="mensagem" cols="70" rows="10"></textarea>
+
+            <label for="contato" class="contato">Como prefere nosso contato?
+                <input type="radio" value="radio-mail" name="Contato">E-mail
+                <input type="radio" value="radio-telefone" name="Contato">Telefone
+                <input type="radio" value="radio-whatsapp" name="Contato">Whatsapp
+            </label>
+
+            <br>
+            <label for="horario" class="motivo_contato">Qual o motivo do seu contato?
+                    <select>
+                        <option>Selecione</option>
+                        <option>Dúvida</option>
+                        <option>Sugestão</option>
+                        <option>Elogio</option>
+                        <option>Reclamação</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label class="label_chk"><input type="checkbox" class="chk">Gostaria de receber nossas novidades por e-mail?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+        
+        <img src="BAIANIN PNG.png" alt="" class="imgcontato">
+
+        <footer>
+            <img src="vr-1911451_1280.png" class="imagem_rodape">
+            <p class="copyright">&copy;Copyright Newverse - 2022</p>
+        </footer>
+    </body>
+</html>
