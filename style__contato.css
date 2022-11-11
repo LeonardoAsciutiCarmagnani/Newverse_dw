@@ -42,6 +42,7 @@ header img{
     margin-left: 5%;
     color:rgb(233, 191, 241);
     text-shadow: 3px 3px 3px black;
+    margin-bottom: 2%;
 }
 
 
@@ -108,8 +109,8 @@ select{
 
 .enviar{
     position:absolute;
-    bottom:-55%;
-    right: 40%;
+    bottom:-83%;
+    right: 43%;
     padding: 0.5%;
     color: black;
     border-radius: 5px;
@@ -121,7 +122,6 @@ select{
 }
 
 .enviar:hover{
- 
     background-color:greenyellow;
     transition: 0.4s all;
     cursor: pointer;
@@ -200,5 +200,27 @@ footer{
 footer img{
     width:5%;
     justify-self: center;
+}
+
+.numerowpp{
+    font-family:Bahnschrift;
+    font-size: 1.2rem;;
+}
+
+.whatsapp-link{
+
+ margin-top: 5%;
+ margin-left: 5%;
+    
+}
+
+.data{
+    margin-top: 5%;
+    width: 40%;
+    font-family:Bahnschrift;
+    color:black;
+    font-size: 1.2rem;
+    position: relative;
+    right: 10%;
 }
 
